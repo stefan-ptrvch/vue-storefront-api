@@ -1,0 +1,74 @@
+{
+    "port": 8080,
+    "objHashSecret": "__SECRET_CHANGE_ME__",
+    "bodyLimit": "100kb",
+    "corsHeaders": [
+        "Link"
+    ],
+    "kue": {},
+    "tax": {
+        "defaultCountry": "PL",
+        "defaultRegion": "",
+        "calculateServerSide": true
+    },
+    "platform": "magento2",
+    "registeredExtensions": [
+        "mailchimp-subscribe"
+    ],
+    "extensions": {
+        "mailchimp": {
+            "listId": "e06875a7e1",
+            "apiKey": "a9a3318ea7d30f5c5596bd4a78ae0985-us3",
+            "apiUrl": "https://us3.api.mailchimp.com/3.0"
+        }
+    },
+    "magento2": {
+        "url": "https://magento.healthsworth.tk/",
+        "imgUrl": "https://magento.healthsworth.tk/media/catalog/product",
+        "magentoUserName": "magentouser",
+        "magentoUserPassword": "madaFaka8",
+        "httpUserName": "magentouser",
+        "httpUserPassword": "madaFaka8",
+        "api": {
+            "url": "https://magento.healthsworth.tk/rest",
+            "consumerKey": "eco2vrhs7smn41u3a7g7eabhxua3mqtc",
+            "consumerSecret": "vg68ncnc7ioj1oisxc9vr0pwg5xkgkqj",
+            "accessToken": "45tlfnme5aomywmrilds417qem76ii07",
+            "accessTokenSecret": "78hjlhhf9omwcmksuhjfaqoma1940jm0"
+        }
+    },
+    "imageable": {
+        "namespace": "",
+        "maxListeners": 512,
+        "imageSizeLimit": 1024,
+        "timeouts": {
+            "convert": 5000,
+            "identify": 100,
+            "download": 1000
+        },
+        "whitelist": {
+            "allowedHosts": [
+                ".*divante.pl",
+                ".*vuestorefront.io",
+                ".*healthsworth.tk"
+            ],
+            "trustedHosts": [
+                ".*divante.pl",
+                ".*vuestorefront.io",
+        ".*healthsworth.tk"
+            ]
+        },
+        "keepDownloads": true,
+        "maxDownloadCacheSize": 1000,
+        "tmpPathRoot": "/tmp"
+    },
+    "elasticsearch": {
+        "host": "localhost",
+        "port": "9200",
+        "indices": [
+            "vue_storefront_catalog",
+            "vue_storefront_catalog_it",
+            "vue_storefront_catalog_de"
+        ]
+    }
+}
