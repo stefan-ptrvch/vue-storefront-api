@@ -23,14 +23,14 @@
         }
     },
     "magento2": {
-        "url": "https://magento.healthsworth.tk/",
-        "imgUrl": "https://magento.healthsworth.tk/media/catalog/product",
+        "url": "https://magento.healthsworth.com/",
+        "imgUrl": "https://magento.healthsworth.com/media/catalog/product",
         "magentoUserName": "magentouser",
         "magentoUserPassword": "madaFaka8",
         "httpUserName": "magentouser",
         "httpUserPassword": "madaFaka8",
         "api": {
-            "url": "https://magento.healthsworth.tk/rest",
+            "url": "https://magento.healthsworth.com/rest",
             "consumerKey": "eco2vrhs7smn41u3a7g7eabhxua3mqtc",
             "consumerSecret": "vg68ncnc7ioj1oisxc9vr0pwg5xkgkqj",
             "accessToken": "45tlfnme5aomywmrilds417qem76ii07",
@@ -50,12 +50,12 @@
             "allowedHosts": [
                 ".*divante.pl",
                 ".*vuestorefront.io",
-                ".*healthsworth.tk"
+                ".*healthsworth.com"
             ],
             "trustedHosts": [
                 ".*divante.pl",
                 ".*vuestorefront.io",
-        ".*healthsworth.tk"
+        ".*healthsworth.com"
             ]
         },
         "keepDownloads": true,
@@ -69,7 +69,7 @@
             "vue_storefront_catalog",
             "vue_storefront_catalog_it",
             "vue_storefront_catalog_de",
-            "vue_storefront_catalog_nlbe"
+            "vue_storefront_catalog_nl"
         ]
     }
 }

@@ -10,3 +10,5 @@ package-lock.json
 src/config.json
 var/magento2-sample-data/
 .migrate
+adcombo.json
+orders.json

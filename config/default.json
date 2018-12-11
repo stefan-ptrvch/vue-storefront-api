@@ -14,7 +14,7 @@
       "vue_storefront_catalog",
       "vue_storefront_catalog_de",
       "vue_storefront_catalog_it",
-      "vue_storefront_catalog_nlbe"
+      "vue_storefront_catalog_nl"
     ],
     "indexTypes": [
       "product",
@@ -34,14 +34,14 @@
   "availableStores": [
     "de",
     "it",
-    "nlbe"
+    "nl"
   ],
   "storeViews": {
     "multistore": true,
     "mapStoreUrlsFor": [
       "de",
       "it",
-      "nlbe"
+      "nl"
     ],
     "de": {
       "storeCode": "de",
@@ -98,14 +98,14 @@
       }
     },
     "nl": {
-      "storeCode": "nlbe",
+      "storeCode": "nl",
       "disabled": true,
       "storeId": 4,
       "name": "Dutch Store",
-      "url": "/nlbe",
+      "url": "/nl",
       "elasticsearch": {
         "host": "localhost:8080/api/catalog",
-        "index": "vue_storefront_catalog_nlbe"
+        "index": "vue_storefront_catalog_nl"
       },
       "tax": {
         "defaultCountry": "NL",
@@ -115,7 +115,7 @@
       },
       "i18n": {
         "fullCountryName": "Netherlands",
-        "fullLanguageName": "Dutch",
+        "fullLanguageName": "Netherlands",
         "defaultCountry": "NL",
         "defaultLanguage": "NL",
         "defaultLocale": "nl-NL",
